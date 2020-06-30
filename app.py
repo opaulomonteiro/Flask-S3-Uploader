@@ -3,7 +3,6 @@ from flask_wtf import FlaskForm
 from flask_wtf.file import FileField
 from s3 import s3_upload
 
-
 app = Flask(__name__)
 app.config.from_object("config")
 
