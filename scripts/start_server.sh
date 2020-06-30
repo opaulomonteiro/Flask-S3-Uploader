@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configurar o caminho para o Virtualenv
-VIRTUALENV=/home/paulo/venv
+VIRTUALENV=/home/ubuntu/venv
 
 pushd $(dirname "$0")
 source $VIRTUALENV/bin/activate
