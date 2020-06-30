@@ -11,4 +11,6 @@ sudo dpkg-reconfigure locales
 mkdir venv
 virtualenv venv
 source venv/bin/activate
-pip3 install Flask
+pip install Flask
+pip install boto3
+pip install flask-wtf
